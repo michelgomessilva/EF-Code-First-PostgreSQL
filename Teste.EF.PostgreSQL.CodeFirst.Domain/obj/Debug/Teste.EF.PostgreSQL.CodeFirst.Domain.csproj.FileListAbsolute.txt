@@ -1,0 +1,5 @@
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst.Domain\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.dll
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst.Domain\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.pdb
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst.Domain\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.csprojResolveAssemblyReference.cache
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst.Domain\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.dll
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst.Domain\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.pdb

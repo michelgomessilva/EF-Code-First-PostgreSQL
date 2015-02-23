@@ -1,0 +1,6 @@
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.exe.config
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.exe
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.pdb
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.csprojResolveAssemblyReference.cache
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.exe
+c:\users\michel.silva\documents\visual studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\Teste.EF.PostgreSQL.CodeFirst\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.pdb
