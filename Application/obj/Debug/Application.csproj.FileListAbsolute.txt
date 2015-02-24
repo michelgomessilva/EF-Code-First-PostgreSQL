@@ -1,0 +1,11 @@
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\Application.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\Application.pdb
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.pdb
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\obj\Debug\Application.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\obj\Debug\Application.pdb
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.Infra.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\EntityFramework.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\Teste.EF.PostgreSQL.CodeFirst.Infra.pdb
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Application\bin\Debug\EntityFramework.xml
