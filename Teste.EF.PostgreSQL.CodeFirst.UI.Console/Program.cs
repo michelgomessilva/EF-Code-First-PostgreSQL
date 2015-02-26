@@ -23,12 +23,12 @@ namespace Teste.EF.PostgreSQL.CodeFirst.UI.Console
                 else
                     System.Console.Write("NÃO Inseriu o produto!");                
             }
-            System.Console.Write("End: " + DateTime.Now.ToString());
+            System.Console.WriteLine("End: " + DateTime.Now.ToString());
 
-            System.Console.Write("Start: " + DateTime.Now.ToString());
+            System.Console.WriteLine("Start: " + DateTime.Now.ToString());
 
-            var product = ProductApplication.GetByName("9bfaa575-11ce-4e89-affd-354af1daa045");
-            System.Console.Write(Convert.ToString(product.Id + " - " + product.Name));
+            var product = ProductApplication.GetByName("Teste nome Produto= 7819");
+            System.Console.WriteLine(Convert.ToString(product.Id + " - " + product.Name));
 
             System.Console.Write("End: " + DateTime.Now.ToString());
 

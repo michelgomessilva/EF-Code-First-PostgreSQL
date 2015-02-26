@@ -23,3 +23,12 @@ C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\ServiceStack.Text.xml
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.exe
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.UI.Console.pdb
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\Npgsql.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\Mono.Security.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\Npgsql.xml
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\de\Npgsql.resources.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\es\Npgsql.resources.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.UI.Console\bin\Debug\zh-CN\Npgsql.resources.dll
