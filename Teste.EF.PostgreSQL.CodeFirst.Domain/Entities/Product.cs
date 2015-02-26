@@ -1,18 +1,13 @@
 ﻿#region Imports (5)
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
+using ServiceStack.DataAnnotations;
 
 #endregion Imports (5)
 
 namespace Teste.EF.PostgreSQL.CodeFirst.Domain.Entities
 {
-    [Table("Product", Schema = "public")]
+    [Alias("Produto")]
     public class Product
     {
         #region Members of Product (3)
@@ -23,13 +18,10 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Domain.Entities
         #endregion Members of Product (3)
 
         #region Properties of Product (3)
-
-        public DateTime CreatedDate { get; set; }
-
         public Guid Id { get; set; }
-
         public string Name { get; set; }
-
+        [Alias("CreatedDate")]
+        public DateTime CreatedDate { get; set; }
         #endregion Properties of Product (3)
 
         #region Constructors of Product (1)
@@ -40,7 +32,7 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Domain.Entities
             this.Name = name;
             this.CreatedDate = createdDate;
         }
-
         #endregion Constructors of Product (1)
+
     }
 }

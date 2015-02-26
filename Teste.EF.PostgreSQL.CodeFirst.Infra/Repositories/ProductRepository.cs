@@ -1,37 +1,44 @@
-﻿#region Imports (7)
+﻿#region Imports (6)
 
+using ServiceStack.OrmLite;
+using ServiceStack.OrmLite.PostgreSQL;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
-using System.Threading.Tasks;
 using Teste.EF.PostgreSQL.CodeFirst.Domain.Entities;
 using Teste.EF.PostgreSQL.CodeFirst.Domain.Repositories;
 
-#endregion Imports (7)
+#endregion Imports (6)
 
 namespace Teste.EF.PostgreSQL.CodeFirst.Infra.Repositories
 {
-    public class ProductRepository : IRepository<Product>
+    public class ProductRepository : IProductRepository
     {
+        #region Members of ProductRepository (2)
         private static ProductRepository _instance;
+        private static OrmLiteConnectionFactory _connectionFactory;
 
-        #region Methods of ProductRepository (5)
+        #endregion Members of ProductRepository (2)
 
-        public static ProductRepository GetInstance()
+        #region Constructors of ProductRepository (1)
+
+        public ProductRepository()
         {
-            return _instance ?? (_instance = new ProductRepository());
+            _connectionFactory = new OrmLiteConnectionFactory("Server=localhost;Port=5432;User Id=teste; Password=teste; Database=Teste",
+                                                PostgreSQLDialectProvider.Instance);
         }
+
+        #endregion Constructors of ProductRepository (1)
+
+        #region Methods of ProductRepository (7)
 
         public void Add(Product entity)
         {
             try
             {
-                using (var context = new Provider.Npgsql.Context())
+                using (var conn = _connectionFactory.Open())
                 {
-                    context.Product.Add(entity);
-                    context.SaveChanges();
+                    conn.CreateTableIfNotExists<Product>();
+                    conn.Save(entity);
                 }
             }
             catch (Exception exception)
@@ -50,6 +57,20 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Infra.Repositories
             throw new NotImplementedException();
         }
 
+        public Product GetByName(string key)
+        {
+            using (var conn = _connectionFactory.Open())
+            {
+                var product = conn.Select<Product>(p => p.Name == key);
+                return product[0];
+            }
+        }
+
+        public static ProductRepository GetInstance()
+        {
+            return _instance ?? (_instance = new ProductRepository());
+        }
+
         public IList<Product> GetList(Product entity)
         {
             throw new NotImplementedException();
@@ -60,6 +81,6 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Infra.Repositories
             throw new NotImplementedException();
         }
 
-        #endregion Methods of ProductRepository (5)
+        #endregion Methods of ProductRepository (7)
     }
 }

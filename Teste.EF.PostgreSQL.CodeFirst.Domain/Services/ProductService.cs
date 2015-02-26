@@ -14,9 +14,9 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Domain.Services
 {
     public class ProductService
     {
-        private IRepository<Product> _repository;
+        private readonly IProductRepository _repository;
 
-        public ProductService(IRepository<Product> repository)
+        public ProductService(IProductRepository repository)
         {
             this._repository = repository;
         }
@@ -35,7 +35,11 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Domain.Services
                 return false;
             }
         }
-
+        
+        public Product GetByName(string name)
+        {
+            return _repository.GetByName(name);
+        }
         #endregion Methods of CreateProductService (1)
     }
 }

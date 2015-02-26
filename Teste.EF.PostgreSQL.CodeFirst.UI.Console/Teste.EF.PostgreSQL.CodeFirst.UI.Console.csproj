@@ -35,11 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -52,6 +47,10 @@
     <ProjectReference Include="..\Application\Application.csproj">
       <Project>{3f950497-f627-45e2-89e1-a5b0cb85be25}</Project>
       <Name>Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teste.EF.PostgreSQL.CodeFirst.Domain\Teste.EF.PostgreSQL.CodeFirst.Domain.csproj">
+      <Project>{DA0ADB4C-63AC-4E9B-B87F-6DE9DABBFDC7}</Project>
+      <Name>Teste.EF.PostgreSQL.CodeFirst.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

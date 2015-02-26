@@ -28,6 +28,11 @@ namespace Application
             return false;
         }
 
+        public static Product GetByName(string name)
+        {
+            ProductService productService = new ProductService(ProductRepository.GetInstance());
+            return productService.GetByName(name);
+        }
         #endregion Methods of ProductApplication (1)
     }
 }
