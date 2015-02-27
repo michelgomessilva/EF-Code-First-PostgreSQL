@@ -29,3 +29,5 @@ C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Infra\bin\Debug\fr\Npgsql.resources.dll
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Infra\bin\Debug\ja\Npgsql.resources.dll
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Infra\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Infra\bin\Debug\Newtonsoft.Json.dll
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Infra\bin\Debug\Newtonsoft.Json.xml

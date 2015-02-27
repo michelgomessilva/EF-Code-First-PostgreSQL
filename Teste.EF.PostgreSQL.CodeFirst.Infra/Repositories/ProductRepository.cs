@@ -1,11 +1,13 @@
 ﻿#region Imports (6)
 
+using System.Linq;
 using ServiceStack.OrmLite;
 using ServiceStack.OrmLite.PostgreSQL;
 using System;
 using System.Collections.Generic;
 using Teste.EF.PostgreSQL.CodeFirst.Domain.Entities;
 using Teste.EF.PostgreSQL.CodeFirst.Domain.Repositories;
+using Teste.EF.PostgreSQL.CodeFirst.Infra.Services;
 
 #endregion Imports (6)
 
@@ -29,7 +31,7 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Infra.Repositories
 
         #endregion Constructors of ProductRepository (1)
 
-        #region Methods of ProductRepository (7)
+        #region Methods of ProductRepository (8)
 
         public void Add(Product entity)
         {
@@ -45,6 +47,16 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Infra.Repositories
             {
                 throw;
             }
+        }
+
+        public void AddBulk(IEnumerable<Product> products)
+        {
+            //using (var conn = _connectionFactory.Open())
+            //{
+            //    conn.InsertAll(products);
+            //}
+            var storage = new StorageService();
+            storage.AddBulk(products.Select(x => new ProductStorageModel(x) as StorageModel).ToArray());
         }
 
         public void Edit(Product entity)
@@ -81,6 +93,6 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Infra.Repositories
             throw new NotImplementedException();
         }
 
-        #endregion Methods of ProductRepository (7)
+        #endregion Methods of ProductRepository (8)
     }
 }

@@ -22,6 +22,9 @@ namespace Teste.EF.PostgreSQL.CodeFirst.Domain.Entities
         public string Name { get; set; }
         [Alias("CreatedDate")]
         public DateTime CreatedDate { get; set; }
+
+        public int Version { get; set; }
+
         #endregion Properties of Product (3)
 
         #region Constructors of Product (1)

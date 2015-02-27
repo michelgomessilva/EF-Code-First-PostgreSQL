@@ -8,3 +8,4 @@ C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Domain\bin\Debug\ServiceStack.Interfaces.dll
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Domain\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.dll
 C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Domain\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.pdb
+C:\Users\michel.silva\Documents\Visual Studio 2013\Projects\Teste.EF.PostgreSQL.CodeFirst\EF-Code-First-PostgreSQL\Teste.EF.PostgreSQL.CodeFirst.Domain\obj\Debug\Teste.EF.PostgreSQL.CodeFirst.Domain.csprojResolveAssemblyReference.cache

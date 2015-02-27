@@ -15,6 +15,13 @@ namespace Application
 {
     public class ProductApplication
     {
+        private static ProductService _productService;
+
+        public ProductApplication()
+        {
+            _productService = new ProductService(ProductRepository.GetInstance());
+        }
+
         #region Methods of ProductApplication (1)
 
         public static bool Create(string name)
@@ -32,6 +39,23 @@ namespace Application
         {
             ProductService productService = new ProductService(ProductRepository.GetInstance());
             return productService.GetByName(name);
+        }
+
+        public bool CreateAll(string name)
+        {
+            var ret = false;
+            var products = new List<Product>();
+            for (int i = 0; i < 10000; i++)
+            {
+                var product = new Product(Guid.NewGuid(), name, DateTime.UtcNow);
+                products.Add(product);
+                if (i % 1000 == 0 && i != 0)
+                {
+                    ret = _productService.CreateAll(products);
+                    products = new List<Product>();
+                }
+            }
+            return ret;
         }
         #endregion Methods of ProductApplication (1)
     }
